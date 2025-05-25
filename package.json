@@ -20,7 +20,7 @@
     "clean": "pnpm -r run clean && rm -rf node_modules",
     "backend:dev": "pnpm --filter backend dev",
     "web:dev": "pnpm --filter web dev",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "devDependencies": {
     "@types/node": "^20.11.30",

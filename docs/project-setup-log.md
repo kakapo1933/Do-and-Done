@@ -5,11 +5,13 @@
 ### ✅ Completed Tasks
 
 1. **Git Repository Setup**
+
    - Initialized Git repository with `git init`
    - Changed default branch from `master` to `main`
    - Status: **Complete**
 
 2. **Created .gitignore File**
+
    - Added comprehensive ignore patterns for:
      - Node.js dependencies and build files
      - Flutter/mobile development files
@@ -19,6 +21,7 @@
    - Status: **Complete**
 
 3. **Initial Commit**
+
    - Committed all documentation files:
      - CLAUDE.md (development guidelines)
      - docs/guides/concept.md (technical requirements)
@@ -51,18 +54,22 @@ main
 ### ✅ Completed Tasks
 
 1. **Node.js**
+
    - Version: v22.14.0
    - Status: **Already installed**
 
 2. **pnpm Package Manager**
+
    - Version: v10.11.0
    - Status: **Already installed**
 
 3. **Docker Desktop**
+
    - Version: v28.0.4
    - Status: **Already installed**
 
 4. **PostgreSQL Client Tools**
+
    - Version: v17.4 (Postgres.app)
    - Status: **Already installed**
 
@@ -82,17 +89,20 @@ main
 ### ✅ Completed Tasks
 
 1. **pnpm Workspace Configuration**
+
    - Created `pnpm-workspace.yaml` for monorepo management
-   - Configured workspaces: backend, web, packages/*
+   - Configured workspaces: backend, web, packages/\*
    - Status: **Complete**
 
 2. **Root Package Configuration**
+
    - Initialized root `package.json` with monorepo scripts
    - Added development dependencies
    - Configured lint-staged for pre-commit hooks
    - Status: **Complete**
 
 3. **Code Quality Tools**
+
    - ESLint: Shared configuration for TypeScript
    - Prettier: Consistent code formatting
    - Added ignore files for both tools
@@ -105,6 +115,7 @@ main
    - Status: **Complete**
 
 ### 📁 Monorepo Structure
+
 ```
 do-and-done/
 ├── backend/         # API server (workspace)
@@ -121,6 +132,7 @@ do-and-done/
 ### 🔄 Next Steps
 
 1. **Install Flutter SDK**
+
    ```bash
    # macOS installation
    brew install --cask flutter
@@ -128,6 +140,7 @@ do-and-done/
    ```
 
 2. **Install dependencies**
+
    ```bash
    pnpm install
    ```
@@ -139,4 +152,4 @@ do-and-done/
 
 ---
 
-*This log will be updated as the project progresses*
+_This log will be updated as the project progresses_
