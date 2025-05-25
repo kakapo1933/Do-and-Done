@@ -85,7 +85,6 @@ cd ../mobile && flutter pub get
 
 - [Technical Requirements](docs/guides/concept.md)
 - [Development Plan](docs/guides/development-plan.md)
-- [Quick Start Checklist](docs/guides/quick-start-checklist.md)
 - [Next Steps Guide](docs/guides/next-steps.md)
 - [Project Setup Log](docs/project-setup-log.md)
 - [Issue Tracking](docs/issues/)
