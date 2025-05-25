@@ -17,8 +17,7 @@ Backend Infrastructure:
 - Database: PostgreSQL + Prisma ORM for data persistence and queries
 - Authentication: JWT + refresh tokens for secure user sessions
 - File Storage: AWS S3 for user uploads and attachments
-- Caching: Redis for performance optimization
-DevOps & Deployment:
+- Caching: Redis for performance optimization DevOps & Deployment:
 
 - Containerization: Docker + Docker Compose for consistent environments
 - Cloud Platform: AWS (ECS/EKS + RDS) for scalable hosting

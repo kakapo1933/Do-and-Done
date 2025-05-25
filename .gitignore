@@ -13,6 +13,7 @@ yarn.lock
 # IDE and editor files
 .vscode/
 .idea/
+.claude/
 *.swp
 *.swo
 *.swn
@@ -118,3 +119,4 @@ pids
 .turbo/
 .vercel/
 .netlify/
+
