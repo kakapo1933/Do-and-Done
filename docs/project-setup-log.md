@@ -77,14 +77,46 @@ main
    - Status: **Not installed**
    - Action needed: Install Flutter for mobile development
 
-2. **VS Code Extensions**
-   - Recommended extensions to install:
-     - ESLint
-     - Prettier
-     - Docker
-     - Flutter/Dart
-     - Prisma
-     - GitLens
+## 2025-01-25: Monorepo Setup
+
+### ✅ Completed Tasks
+
+1. **pnpm Workspace Configuration**
+   - Created `pnpm-workspace.yaml` for monorepo management
+   - Configured workspaces: backend, web, packages/*
+   - Status: **Complete**
+
+2. **Root Package Configuration**
+   - Initialized root `package.json` with monorepo scripts
+   - Added development dependencies
+   - Configured lint-staged for pre-commit hooks
+   - Status: **Complete**
+
+3. **Code Quality Tools**
+   - ESLint: Shared configuration for TypeScript
+   - Prettier: Consistent code formatting
+   - Added ignore files for both tools
+   - Status: **Complete**
+
+4. **TypeScript Configuration**
+   - Created root `tsconfig.json` with path aliases
+   - Configured for ES2022 target
+   - Set up module resolution for packages
+   - Status: **Complete**
+
+### 📁 Monorepo Structure
+```
+do-and-done/
+├── backend/         # API server (workspace)
+├── web/             # React app (workspace)
+├── mobile/          # Flutter app (not in pnpm workspace)
+├── packages/        # Shared packages
+├── pnpm-workspace.yaml
+├── package.json     # Root package with scripts
+├── tsconfig.json    # Shared TypeScript config
+├── .eslintrc.js     # Shared ESLint config
+└── .prettierrc      # Shared Prettier config
+```
 
 ### 🔄 Next Steps
 
@@ -95,11 +127,9 @@ main
    # Or download from https://flutter.dev/docs/get-started/install
    ```
 
-2. **Set up remote repository** (GitHub/GitLab)
+2. **Install dependencies**
    ```bash
-   git remote add origin <repository-url>
-   git push -u origin main
-   git push -u origin develop
+   pnpm install
    ```
 
 3. **Initialize backend project**

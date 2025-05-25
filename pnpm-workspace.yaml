@@ -1,0 +1,11 @@
+packages:
+  # Backend API server
+  - 'backend'
+  
+  # Web application
+  - 'web'
+  
+  # Shared packages
+  - 'packages/*'
+  
+  # Mobile app is managed by Flutter, not included in pnpm workspace
