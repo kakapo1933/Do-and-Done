@@ -165,6 +165,21 @@ do-and-done/
 └── .prettierrc      # Shared Prettier config
 ```
 
+## 2025-01-25: GitHub Repository Setup
+
+### ✅ Remote Repository Connected
+
+1. **GitHub Remote Added**
+
+   - Repository: `git@github.com:kakapo1933/Do-and-Done.git`
+   - Remote name: `origin`
+   - Status: **Complete**
+
+2. **Branches Pushed**
+   - `main` branch pushed and tracking `origin/main`
+   - `develop` branch pushed and tracking `origin/develop`
+   - Status: **Complete**
+
 ### 🔄 Next Steps
 
 1. **Install Flutter SDK**
@@ -182,9 +197,15 @@ do-and-done/
    ```
 
 3. **Initialize backend project**
+
    - Set up Node.js project with TypeScript
    - Configure Express/Fastify
    - Set up Prisma ORM
+
+4. **Configure branch protection** (on GitHub)
+   - Protect `main` branch
+   - Require pull request reviews
+   - Enable status checks
 
 ---
 
